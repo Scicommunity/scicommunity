@@ -4,3 +4,6 @@ title: SEAF NOTES
 theme: hugo-book
 ignoreFiles:
   - "content/local_base/.*"
+  - "copilot/.*"
+  - ".obsidian/.*"
+  - ".idea/.*"
