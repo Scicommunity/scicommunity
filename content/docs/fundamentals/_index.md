@@ -1,5 +1,5 @@
 ---
-title: Fundamentals
+title: Основы SEAF
 weight: 3
 bookCollapseSection: true
 aliases:
