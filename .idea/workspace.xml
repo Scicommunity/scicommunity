@@ -4,51 +4,171 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="Мелкие доработки информации по управлению знаниями">
-      <change afterPath="$PROJECT_DIR$/content/docs/guides/contribute/Untitled Diagram 1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ProductCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/Values4ProdTeam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/categories/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/contribute/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/example/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/fundamentals/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/guides/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/posts/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/posts/reverse-engineering/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/rabbithole/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/docs/seafonapage/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image18.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image19.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image20.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image22.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image23.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/image9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="перенос в папку игнорирования контента">
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/snippets/naked-embeds.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/templates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/themes/Minimal/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/themes/Minimal/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (2).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (3).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (4).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (5).json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content/docs/guides/contribute/Pasted image 20250513134943.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Emojify.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Explain like I am 5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Fix grammar and spelling.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Generate glossary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Generate table of contents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Make longer.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Make shorter.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Remove URLs.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Rewrite as tweet thread.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Rewrite as tweet.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Simplify.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Summarize.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Translate to Chinese.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copilot/Без названия.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/appearance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/core-plugins.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/hotkeys.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/hotkeys.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/periodic-notes/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/periodic-notes/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/types.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/guides/contribute/models/knowledgeformsout.svg" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/guides/contribute/models/knowledgeformsout.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pasted image 20250513134943.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-05.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-07.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2025-02-21.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2025-03-10.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/5267099990597061218.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/5267099990597061363.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/4-04-08 19.05.13.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/AI for SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-03-11 11.07.26.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-04-12 14.32.15.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-07-05 11.52.25.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2025-03-17 13.31.04.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/HowToMakeAnArchitectGreatAgain.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Untitled.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Доменная модель SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Компании сквозного примера SEAF DZO EXAMPLE.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Модель ПА.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Обсуждение DDD с Костей.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.1.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.9.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.91.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.92.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.93.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.94.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.95.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Расширения Прикладного слоя.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Репозитории SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Сборник стандартов ДЗО и ДБ.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Что такое требование.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Что такое требование.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/NotaBenes/SberEAF или SimpleEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/NotaBenes/Не использовать спецсимволы в title контекстов.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317141117_046.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317141233_049.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317141649_055.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317142145_150.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317142213_766.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Release Notes SEAF/Release notes SEAF DZO Example 1.3.0.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Untitled.canvas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/msg-1002009916411-766.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/periodic/daily/новости 07.02.2024.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Guides/Методика сегментации архитектуры.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/Митап по описанию стандартов экосистемы.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v1/Анонс.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v1/Описание предметной области (Пример).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v1/Практическое задание.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/aspects.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/components.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/contexts.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/dochub.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/integrations.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/astream/services.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/Описание предметной области (Пример).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v2/Практическое задание.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/План мероприятий SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Без названия 1.canvas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Без названия 2.canvas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Без названия 3.canvas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Без названия.canvas" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Без названия.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Бренд/Зачем нужен личный бренд.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Бренд/Синдром самозванца.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Варианты создания заметок в теле статьи.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Заметки и ссылки.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Конференция FLOW/Основные мысли и выводы для целевой аудитории.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Модель ПА.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новая заметка.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новости 15.02.2024.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF/Новый инструмент управления архитектурой.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Обучение DocHub 05.02.2024.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Реверс технической архитектуры из cloud.ru (платформы Enterprise) с применением пакета SEAF IaaS Reverse.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.1. Миссия и цели Сообщетва SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.2. Ценности SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.3. Визуальная идентичность.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/3.1. Роли сообщества SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/3.2. Критерии успеха Сообщества SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF и прочее (архив)_v0.1.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q1-2.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q3-4_v1.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q3-4_v2.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Рекомендации Андрея Блинова по развитию SEAF в части управления знаниями, формирования базы знаний.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF as is to be v1.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF as is v2.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF tobe v2.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_as is_Сценарий и проблемы SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_as is_Сценарий и проблемы SEAF.excalidraw.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_to be_Сценарий и проблемы SEAF.excalidraw 1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_to be_Сценарий и проблемы SEAF.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_Боли по SEAF с команды.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_Основные мысли.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Целевая аудитория Сообщества SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ЧЕГО МЫ ХОТИМ ОТ SEAF.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста 11.54.34.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста моего.excalidraw.excalidraw.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Цели SEAF/Конгруэнтные цели.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/новости 05.02.2024.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/fundamentals/values4analysts/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/fundamentals/values4analysts/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/docs/guides/contribute/seafknowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/guides/contribute/seafknowledge.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/docs/guides/contribute/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/guides/contribute/todolist.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,21 +193,22 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2t4RXtaqyUGTs93kvXdQS4jC6Mz" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/quickstart/releases/seaf-bok/static&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/dna4l/YandexDisk/sci.community/git_repo_scicommunity",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\quickstart\releases\seaf-bok\content\docs\posts\Reverse engineering" />
@@ -97,6 +218,7 @@
       <recent name="C:\quickstart\releases\seaf-bok\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dna4l\YandexDisk\sci.community\git_repo_scicommunity\content\local_base" />
       <recent name="C:\quickstart\releases\seaf-bok\static" />
       <recent name="C:\quickstart\releases\seaf-bok\content\docs\posts\Reverse engineering\img" />
     </key>
@@ -318,7 +440,39 @@
       <option name="project" value="LOCAL" />
       <updated>1750932100156</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="добавление каталога в gitignore">
+      <option name="closed" value="true" />
+      <created>1762501702463</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1762501702463</updated>
+    </task>
+    <task id="LOCAL-00028" summary="добавление каталога в для игнорирования его локальным сервером HUGO">
+      <option name="closed" value="true" />
+      <created>1762503481126</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1762503481126</updated>
+    </task>
+    <task id="LOCAL-00029" summary="добавление каталогов в для игнорирования сервером HUGO">
+      <option name="closed" value="true" />
+      <created>1762516949477</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1762516949477</updated>
+    </task>
+    <task id="LOCAL-00030" summary="перенос в папку игнорирования контента">
+      <option name="closed" value="true" />
+      <created>1762516987975</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1762516987975</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -346,11 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Уточнение и расширение целевой аудитории SEAF" />
-    <MESSAGE value="Добавление разделов меню;&#10;Добавление поста об онтологической модели Эрика Бернса&#10;Добавление структуры каталога docs и заготовок некоторых документов (страниц)" />
-    <MESSAGE value="Загрузка Fundamentals с внутренних ресурсов без структурирования на заметки" />
-    <MESSAGE value="Обновление файла contributors.md" />
-    <MESSAGE value="Интеграция предыдущих заметок о SEAF для целей распределенной доработки документации" />
     <MESSAGE value="Публикация результатов обратного инжиниринга IntelliJ IDEA по исходному коду с GitHub" />
     <MESSAGE value="Редактирование fundamentals, разнесение по заметкам, редактирование тегов" />
     <MESSAGE value="небольшие правки в структуре файлов" />
@@ -371,6 +520,11 @@
     <MESSAGE value="Черновая версия презентации об управлении знаниями в SEAF. Дополнительные заметки." />
     <MESSAGE value="перенос трех моделей в каталог, мелкие доработки информации по управлению знаниями" />
     <MESSAGE value="Мелкие доработки информации по управлению знаниями" />
-    <option name="LAST_COMMIT_MESSAGE" value="Мелкие доработки информации по управлению знаниями" />
+    <MESSAGE value="рефакторинг Obsidian Vault" />
+    <MESSAGE value="добавление каталога в gitignore" />
+    <MESSAGE value="добавление каталога в для игнорирования его локальным сервером HUGO" />
+    <MESSAGE value="добавление каталогов в для игнорирования сервером HUGO" />
+    <MESSAGE value="перенос в папку игнорирования контента" />
+    <option name="LAST_COMMIT_MESSAGE" value="перенос в папку игнорирования контента" />
   </component>
 </project>
