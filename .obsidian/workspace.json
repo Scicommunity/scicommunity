@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "6bf59b8eb8df26d8",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "99e58a1d2149f13b",
+        "id": "c4f2582517c8a591",
         "type": "tabs",
         "children": [
           {
-            "id": "ba12c07b86e27aba",
+            "id": "54bb728b69ba017d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -67,14 +67,14 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "Закладки"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 527.5
   },
   "right": {
     "id": "2dace323d37d6b22",
@@ -100,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/docs/guides/contribute/seafknowledge.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для seafknowledge"
             }
           },
           {
@@ -119,7 +120,7 @@
               "type": "outgoing-link",
               "state": {
                 "file": "content/docs/guides/contribute/seafknowledge.md",
-                "linksCollapsed": true,
+                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
@@ -133,7 +134,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -147,23 +148,62 @@
             "state": {
               "type": "outline",
               "state": {
-                "followCursor": true,
-                "showSearch": false,
+                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "followCursor": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура seafknowledge"
+            }
+          },
+          {
+            "id": "dd3f063b3587154c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.017341529915832626,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Граф seafknowledge"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 261.5
+    "width": 347.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
       "canvas:Создать новый холст": false,
@@ -172,63 +212,69 @@
       "command-palette:Открыть палитру команд": false,
       "zk-prefixer:Создать заметку с уникальным идентификатором": false,
       "publish:Публикация изменений": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
       "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
       "github-sync:Sync with Remote": false,
-      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "markdown-importer:Импорт Markdown-файлов": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "homepage:Open homepage": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "copilot:Open Copilot Chat": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "ba12c07b86e27aba",
+  "active": "fddab1e91421cf81",
   "lastOpenFiles": [
-    "content/docs/guides/contribute/seafknowledge.md",
-    "content/docs/guides/contribute/Untitled Diagram 1.svg",
-    "content/docs/guides/contribute/models/knowledgeformsout.svg",
-    "content/docs/guides/contribute/stakeholders.svg",
-    "content/docs/guides/contribute/formats.svg",
-    "content/docs/guides/contribute/typesbylogic.svg",
-    "content/docs/guides/contribute/Вопросы к рассмотрению (разобрать).svg",
-    "content/docs/guides/contribute/knowledgemachine.svg",
-    "content/docs/guides/contribute/models/knowledgeformsin.svg",
-    "content/docs/guides/contribute/Knowledge Cube v1.jpg",
-    "content/docs/guides/contribute/models",
-    "content/docs/guides/contribute/Темы для проработки Рабочей группой SEAF.md",
-    "content/docs/guides/contribute/Knowledgekpi.svg",
-    "content/docs/guides/contribute/tags.md",
-    "content/docs/guides/contribute/todolist.md",
-    "content/docs/guides/contribute/deep.md",
-    "content/docs/guides/contribute/contributors.md",
-    "content/docs/guides/contribute/202504071852.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q3-4_v2.excalidraw.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста моего.excalidraw.excalidraw.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста 11.54.34.excalidraw.md",
-    "content/ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/ЧЕГО МЫ ХОТИМ ОТ SEAF.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF tobe v2.excalidraw.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/Рекомендации Андрея Блинова по развитию SEAF в части управления знаниями, формирования базы знаний.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q1-2.excalidraw.md",
-    "content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF и прочее (архив)_v0.1.excalidraw.md",
-    "content/docs/guides/contribute/othernotes/Что такое deepwiki.md",
-    "content/docs/guides/contribute/SEAF TAGS.drawio",
-    "content/docs/guides/contribute/othernotes/deepwiki.md",
-    "content/docs/guides/contribute/_index.md",
-    "content/docs/guides/contribute/howtomarkdata.md",
-    "content/docs/guides/_index.md",
-    "seafonapage/_index.md",
-    "content/docs/guides/contribute/howtoformat.md",
-    "content/docs/guides/contribute/howtostart.md",
-    "content/docs/fundamentals/_index.md",
+    "content/docs/guides/contribute/Pasted image 20250513134943.png",
+    "content/local_base",
+    "content/docs/fundamentals/values4analysts/index.md",
+    "Без названия 1.md",
+    "copilot/Без названия.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "Вся информация по SEAF из СБЕР/План сбора всех знаний SEAF.md",
+    "sci.community.md",
+    "Вся информация по SEAF из СБЕР/Технология создания экосистемы.md",
+    "Вся информация по SEAF из СБЕР/Ментальные и переговорные приемы.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Решение АрхСовета Сбербанка.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Рекомендации по описанию SLA для АС ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Ключевые изменения в Сборнике версии 4.0.pptx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 9. Стандарт надёжности ИТ ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 8. Стандарт Cloud Native для ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 7. Требования к Архитектуре Приложений и Интеграции.docx",
+    "ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md",
+    "ObsidianVault/msg-1002009916411-766.jpg",
+    "ObsidianVault/README.md",
+    "ObsidianVault/movies.md",
+    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета.md",
+    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета 1.md",
+    "content/docs/guides/contribute/SEAF TAGS COPY.svg",
+    "themes/hugo-book/images/tn.png",
+    "themes/hugo-book/images/screenshot.png",
+    "themes/hugo-book/static/svg/translate.svg",
+    "themes/hugo-book/static/svg/toc.svg",
+    "themes/hugo-book/static/svg/edit.svg",
+    "themes/hugo-book/static/svg/menu.svg",
+    "themes/hugo-book/static/svg/calendar.svg",
+    "themes/hugo-book/static/favicon.svg",
+    "content/ObsidianVault/Untitled.canvas",
     "Без названия 1.canvas",
     "Без названия.canvas",
-    "content/docs/guides/contribute/othernotes",
-    "content/docs/posts/AI",
-    "content/docs/fundamentals/refprocs",
-    "seafonapage",
-    "README.md~",
-    "content/docs/fundamentals/_index.md~",
-    "content/docs/fundamentals/values4org",
-    "static/rev_idea",
     "Без названия 3.canvas",
     "Untitled.canvas",
     "Untitled 2.canvas",

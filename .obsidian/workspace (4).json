@@ -1,0 +1,283 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "31cd09614aac7c55",
+    "type": "split",
+    "children": [
+      {
+        "id": "c90f7c89f7534bfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fddab1e91421cf81",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "dc43386a0d3310ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "e68fdf37802a6e31",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 319.5
+  },
+  "right": {
+    "id": "2dace323d37d6b22",
+    "type": "split",
+    "children": [
+      {
+        "id": "13c5a59b02865c21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "88a419699485ce68",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "4b8e84a69de030f8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для seafknowledge"
+            }
+          },
+          {
+            "id": "9366ed94725e905e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из seafknowledge"
+            }
+          },
+          {
+            "id": "4a023bcf919c79d1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "56340a1d9c381e02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура seafknowledge"
+            }
+          },
+          {
+            "id": "dd3f063b3587154c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.017341529915832626,
+                  "close": false
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 347.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Создать новую базу": false,
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "zk-prefixer:Создать заметку с уникальным идентификатором": false,
+      "publish:Публикация изменений": false,
+      "markdown-importer:Импорт Markdown-файлов": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Создать новый чертеж": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "github-sync:Sync with Remote": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
+      "homepage:Open homepage": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "copilot:Open Copilot Chat": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "fddab1e91421cf81",
+  "lastOpenFiles": [
+    "content/docs/fundamentals/values4analysts/index.md",
+    "Без названия 1.md",
+    "copilot/Без названия.md",
+    "copilot/copilot-custom-prompts/Generate glossary.md",
+    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
+    "copilot/copilot-custom-prompts/Explain like I am 5.md",
+    "copilot/copilot-custom-prompts/Emojify.md",
+    "Вся информация по SEAF из СБЕР/План сбора всех знаний SEAF.md",
+    "sci.community.md",
+    "Вся информация по SEAF из СБЕР/Технология создания экосистемы.md",
+    "Вся информация по SEAF из СБЕР/Ментальные и переговорные приемы.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
+    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
+    "copilot/copilot-custom-prompts/Remove URLs.md",
+    "copilot/copilot-custom-prompts/Generate table of contents.md",
+    "copilot/copilot-custom-prompts/Make longer.md",
+    "copilot/copilot-custom-prompts/Make shorter.md",
+    "copilot/copilot-custom-prompts/Simplify.md",
+    "copilot/copilot-custom-prompts/Summarize.md",
+    "copilot/copilot-custom-prompts/Translate to Chinese.md",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Решение АрхСовета Сбербанка.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Рекомендации по описанию SLA для АС ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Ключевые изменения в Сборнике версии 4.0.pptx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 9. Стандарт надёжности ИТ ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 8. Стандарт Cloud Native для ДЗО и ДБ.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 7. Требования к Архитектуре Приложений и Интеграции.docx",
+    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 6. Требования в области мониторинга ИТ.docx",
+    "ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md",
+    "ObsidianVault/msg-1002009916411-766.jpg",
+    "ObsidianVault/README.md",
+    "ObsidianVault/movies.md",
+    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета.md",
+    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета 1.md",
+    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета 3.md",
+    "content/docs/guides/contribute/SEAF TAGS COPY.svg",
+    "themes/hugo-book/images/tn.png",
+    "themes/hugo-book/images/screenshot.png",
+    "themes/hugo-book/static/svg/translate.svg",
+    "themes/hugo-book/static/svg/toc.svg",
+    "themes/hugo-book/static/svg/edit.svg",
+    "themes/hugo-book/static/svg/menu.svg",
+    "themes/hugo-book/static/svg/calendar.svg",
+    "themes/hugo-book/static/favicon.svg",
+    "content/ObsidianVault/Untitled.canvas",
+    "Без названия 1.canvas",
+    "Без названия.canvas",
+    "Без названия 3.canvas",
+    "Untitled.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Без названия 2.canvas"
+  ]
+}

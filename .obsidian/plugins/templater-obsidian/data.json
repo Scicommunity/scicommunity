@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "templates",
+  "templates_folder": "content/ObsidianVault/templates",
   "templates_pairs": [
     [
       "",
@@ -15,8 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "",
-      "template": ""
+      "folder": "content/ObsidianVault/periodic/daily",
+      "template": "content/ObsidianVault/templates/_daily template.md"
+    },
+    {
+      "folder": "content/ObsidianVault/periodic/weekly",
+      "template": "content/ObsidianVault/templates/_weekly template.md"
     }
   ],
   "syntax_highlighting": true,

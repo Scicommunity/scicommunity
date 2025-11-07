@@ -3,19 +3,22 @@
   "hasMigratedDailyNoteSettings": false,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY.MM.DD",
+    "template": "content/ObsidianVault/templates/_inbox template.md",
+    "folder": "content/ObsidianVault",
+    "enabled": true
   },
   "weekly": {
     "format": "",
-    "template": "",
-    "folder": ""
+    "template": "content/ObsidianVault/templates/_weekly template.md",
+    "folder": "content/ObsidianVault",
+    "enabled": true
   },
   "monthly": {
-    "format": "",
-    "template": "",
-    "folder": ""
+    "format": "YYYY-MM",
+    "template": "content/ObsidianVault/templates/_inbox template.md",
+    "folder": "content/ObsidianVault",
+    "enabled": true
   },
   "quarterly": {
     "format": "",
