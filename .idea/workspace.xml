@@ -4,67 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="перенос в папку игнорирования контента">
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/copilot/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/homepage/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/note-refactor-obsidian/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-book-search-plugin/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-minimal-settings/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/plugins/sortable-tables/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/snippets/naked-embeds.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/templates.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/themes/Minimal/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/themes/Minimal/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (2).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (3).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (4).json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.obsidian/workspace (5).json" afterDir="false" />
+    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="изменения настроек IDEA">
       <change afterPath="$PROJECT_DIR$/content/docs/guides/contribute/Pasted image 20250513134943.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Emojify.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Explain like I am 5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Fix grammar and spelling.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Generate glossary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Generate table of contents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Make longer.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Make shorter.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Remove URLs.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Rewrite as tweet thread.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Rewrite as tweet.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Simplify.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Summarize.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/copilot-custom-prompts/Translate to Chinese.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/copilot/Без названия.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/movies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/appearance.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/appearance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/community-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/community-plugins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/core-plugins.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/core-plugins.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/hotkeys.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/hotkeys.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/calendar/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/obsidian-excalidraw-plugin/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/periodic-notes/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/periodic-notes/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/plugins/templater-obsidian/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/types.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/types.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pasted image 20250513134943.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-05.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-07.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2025-02-21.md" beforeDir="false" />
@@ -472,7 +415,39 @@
       <option name="project" value="LOCAL" />
       <updated>1762516987975</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="доработки настроек обсидиана для синхронности разработки">
+      <option name="closed" value="true" />
+      <created>1762517282686</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517282686</updated>
+    </task>
+    <task id="LOCAL-00032" summary="перенос картинки в локальный репозиторий">
+      <option name="closed" value="true" />
+      <created>1762517363432</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517363432</updated>
+    </task>
+    <task id="LOCAL-00033" summary="скрипт для отражения видео в обсидиане">
+      <option name="closed" value="true" />
+      <created>1762517390937</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517390937</updated>
+    </task>
+    <task id="LOCAL-00034" summary="изменения настроек IDEA">
+      <option name="closed" value="true" />
+      <created>1762517413271</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517413271</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,10 +475,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Публикация результатов обратного инжиниринга IntelliJ IDEA по исходному коду с GitHub" />
-    <MESSAGE value="Редактирование fundamentals, разнесение по заметкам, редактирование тегов" />
-    <MESSAGE value="небольшие правки в структуре файлов" />
-    <MESSAGE value="Обновление readme" />
     <MESSAGE value="Доработка раздела contribute" />
     <MESSAGE value="Перенос перечня тегов SEAF в BOK" />
     <MESSAGE value="Доработка раздела How to start and contribute" />
@@ -525,6 +496,10 @@
     <MESSAGE value="добавление каталога в для игнорирования его локальным сервером HUGO" />
     <MESSAGE value="добавление каталогов в для игнорирования сервером HUGO" />
     <MESSAGE value="перенос в папку игнорирования контента" />
-    <option name="LAST_COMMIT_MESSAGE" value="перенос в папку игнорирования контента" />
+    <MESSAGE value="доработки настроек обсидиана для синхронности разработки" />
+    <MESSAGE value="перенос картинки в локальный репозиторий" />
+    <MESSAGE value="скрипт для отражения видео в обсидиане" />
+    <MESSAGE value="изменения настроек IDEA" />
+    <option name="LAST_COMMIT_MESSAGE" value="изменения настроек IDEA" />
   </component>
 </project>
