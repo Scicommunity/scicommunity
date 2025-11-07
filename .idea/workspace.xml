@@ -4,40 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="изменения настроек IDEA">
-      <change afterPath="$PROJECT_DIR$/content/docs/guides/contribute/Pasted image 20250513134943.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="Перемещение  в локальный каталог информации о сообществе SEAF">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.obsidian/workspace.json" beforeDir="false" afterPath="$PROJECT_DIR$/.obsidian/workspace.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-05.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2024-02-07.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2025-02-21.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/2025-03-10.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/5267099990597061218.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/5267099990597061363.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/4-04-08 19.05.13.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/AI for SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-03-11 11.07.26.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-04-12 14.32.15.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2024-07-05 11.52.25.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Drawing 2025-03-17 13.31.04.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/HowToMakeAnArchitectGreatAgain.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Untitled.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Доменная модель SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Компании сквозного примера SEAF DZO EXAMPLE.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Модель ПА.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Обсуждение DDD с Костей.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.1.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.9.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.91.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.92.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.93.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.94.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/ПРОБЛЕМАТИКА SEAF_0.95.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Расширения Прикладного слоя.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Репозитории SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Сборник стандартов ДЗО и ДБ.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Что такое требование.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Excalidraw/Что такое требование.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/NotaBenes/SberEAF или SimpleEAF.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/NotaBenes/Не использовать спецсимволы в title контекстов.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Pasted Image 20250317141117_046.png" beforeDir="false" />
@@ -50,7 +25,6 @@
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Untitled.canvas" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/msg-1002009916411-766.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/periodic/daily/новости 07.02.2024.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Guides/Методика сегментации архитектуры.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/Митап по описанию стандартов экосистемы.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/projects/Воркшопы и митапы/ПА/v1/Анонс.md" beforeDir="false" />
@@ -75,43 +49,13 @@
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Бренд/Синдром самозванца.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Варианты создания заметок в теле статьи.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Заметки и ссылки.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Конференция FLOW/Основные мысли и выводы для целевой аудитории.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Модель ПА.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новая заметка.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новости 15.02.2024.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Новый инструмент SEAF/Новый инструмент управления архитектурой.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Обучение DocHub 05.02.2024.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Реверс технической архитектуры из cloud.ru (платформы Enterprise) с применением пакета SEAF IaaS Reverse.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.1. Миссия и цели Сообщетва SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.2. Ценности SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/1.3. Визуальная идентичность.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/3.1. Роли сообщества SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/3.2. Критерии успеха Сообщества SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF и прочее (архив)_v0.1.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q1-2.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q3-4_v1.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/План мероприятий SEAF_2024Q3-4_v2.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Рекомендации Андрея Блинова по развитию SEAF в части управления знаниями, формирования базы знаний.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF as is to be v1.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF as is v2.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Сообщество SEAF tobe v2.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_as is_Сценарий и проблемы SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_as is_Сценарий и проблемы SEAF.excalidraw.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_to be_Сценарий и проблемы SEAF.excalidraw 1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_to be_Сценарий и проблемы SEAF.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_Боли по SEAF с команды.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ХХ_Основные мысли.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/Целевая аудитория Сообщества SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/ЧЕГО МЫ ХОТИМ ОТ SEAF.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста 11.54.34.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/СООБЩЕСТВО SEAF/что-то про стратегию со старого холста моего.excalidraw.excalidraw.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/ObsidianVault/Цели SEAF/Конгруэнтные цели.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/content/ObsidianVault/новости 05.02.2024.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/fundamentals/values4analysts/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/fundamentals/values4analysts/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/guides/contribute/seafknowledge.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/guides/contribute/seafknowledge.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/docs/guides/contribute/todolist.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/docs/guides/contribute/todolist.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -447,7 +391,71 @@
       <option name="project" value="LOCAL" />
       <updated>1762517413271</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="изменения настроек IDEA">
+      <option name="closed" value="true" />
+      <created>1762517482667</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517482667</updated>
+    </task>
+    <task id="LOCAL-00036" summary="доработки и перемещения docs">
+      <option name="closed" value="true" />
+      <created>1762517939524</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1762517939524</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Перемещение статьи про конгруэнтность целей в локальный каталог">
+      <option name="closed" value="true" />
+      <created>1762518275862</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1762518275862</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Перемещение статьи про конференцию FLOW в локальный каталог">
+      <option name="closed" value="true" />
+      <created>1762518990849</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1762518990849</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Перемещение статьи про новый инструмент SEAF в локальный каталог">
+      <option name="closed" value="true" />
+      <created>1762519272334</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1762519272335</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Перемещение моделей Excalidraw в локальный каталог">
+      <option name="closed" value="true" />
+      <created>1762519535456</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1762519535457</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Перемещение  в локальный каталог">
+      <option name="closed" value="true" />
+      <created>1762519867646</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1762519867646</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Перемещение  в локальный каталог информации о сообществе SEAF">
+      <option name="closed" value="true" />
+      <created>1762520029013</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1762520029013</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -475,13 +483,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Доработка раздела contribute" />
-    <MESSAGE value="Перенос перечня тегов SEAF в BOK" />
-    <MESSAGE value="Доработка раздела How to start and contribute" />
-    <MESSAGE value="Перенос раздела How to start and contribute, наполнение концепции управления документами" />
-    <MESSAGE value="Добавление раздела референсные процессы, общие определения, роль и использование референсных процессов во внедрении SEAF &quot;сверху вниз&quot;" />
-    <MESSAGE value="временное выведение из публикации ценностей для организации от публикации и развития SEAF" />
-    <MESSAGE value="Доработка раздела How to Contribute, редактирование текста, дополнение заметками по основным концепциям." />
     <MESSAGE value="Включение раздела про AI для SEAF и первых ссылок на изучение ресурсов по AI" />
     <MESSAGE value="Корректировка тегов для управления связями заметок (в соответствии с внутренней договоренностью в SEAF)" />
     <MESSAGE value="Дополннение инструкции по клонированию и запуску локального сервера Hugo" />
@@ -500,6 +501,13 @@
     <MESSAGE value="перенос картинки в локальный репозиторий" />
     <MESSAGE value="скрипт для отражения видео в обсидиане" />
     <MESSAGE value="изменения настроек IDEA" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменения настроек IDEA" />
+    <MESSAGE value="доработки и перемещения docs" />
+    <MESSAGE value="Перемещение статьи про конгруэнтность целей в локальный каталог" />
+    <MESSAGE value="Перемещение статьи про конференцию FLOW в локальный каталог" />
+    <MESSAGE value="Перемещение статьи про новый инструмент SEAF в локальный каталог" />
+    <MESSAGE value="Перемещение моделей Excalidraw в локальный каталог" />
+    <MESSAGE value="Перемещение  в локальный каталог" />
+    <MESSAGE value="Перемещение  в локальный каталог информации о сообществе SEAF" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перемещение  в локальный каталог информации о сообществе SEAF" />
   </component>
 </project>

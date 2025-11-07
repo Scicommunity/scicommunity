@@ -11,10 +11,12 @@
             "id": "54bb728b69ba017d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "type": "excalidraw",
+              "state": {
+                "file": "content/local_base/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2024-10-29 14.54.54.excalidraw"
             }
           }
         ]
@@ -74,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 695.5
   },
   "right": {
     "id": "2dace323d37d6b22",
@@ -163,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "content/docs/guides/contribute/seafknowledge.md",
+                "file": "content/local_base/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -191,7 +193,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф seafknowledge"
+              "title": "Граф Drawing 2024-10-29 14.54.54.excalidraw"
             }
           }
         ],
@@ -199,7 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 347.5
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -226,6 +228,13 @@
   },
   "active": "fddab1e91421cf81",
   "lastOpenFiles": [
+    "content/local_base/ObsidianVault/Новый инструмент SEAF/Новый инструмент управления архитектурой.md",
+    "content/local_base/seafonapage/_index.md",
+    "content/local_base/Вся информация по SEAF из СБЕР/План сбора всех знаний SEAF.md",
+    "content/local_base/Вся информация по SEAF из СБЕР/Технология создания экосистемы.md",
+    "content/local_base/ObsidianVault/Конференция FLOW/Основные мысли и выводы для целевой аудитории.md",
+    "content/local_base/ObsidianVault/Цели SEAF/Конгруэнтные цели.md",
+    "content/docs/guides/contribute/seafknowledge.md",
     "content/docs/guides/contribute/Pasted image 20250513134943.png",
     "content/local_base",
     "content/docs/fundamentals/values4analysts/index.md",
@@ -247,7 +256,6 @@
     "copilot/copilot-custom-prompts/Make shorter.md",
     "copilot/copilot-custom-prompts/Simplify.md",
     "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts/Translate to Chinese.md",
     "copilot/copilot-custom-prompts",
     "copilot",
     "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Решение АрхСовета Сбербанка.docx",
@@ -257,12 +265,7 @@
     "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 9. Стандарт надёжности ИТ ДЗО и ДБ.docx",
     "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 8. Стандарт Cloud Native для ДЗО и ДБ.docx",
     "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 7. Требования к Архитектуре Приложений и Интеграции.docx",
-    "ObsidianVault/SEAF.sci.community/Drawing 2025-03-17 13.31.23.excalidraw.md",
     "ObsidianVault/msg-1002009916411-766.jpg",
-    "ObsidianVault/README.md",
-    "ObsidianVault/movies.md",
-    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета.md",
-    "Clippings/СберУниверситет — Образовательная платформа СберУниверситета 1.md",
     "content/docs/guides/contribute/SEAF TAGS COPY.svg",
     "themes/hugo-book/images/tn.png",
     "themes/hugo-book/images/screenshot.png",
@@ -271,7 +274,6 @@
     "themes/hugo-book/static/svg/edit.svg",
     "themes/hugo-book/static/svg/menu.svg",
     "themes/hugo-book/static/svg/calendar.svg",
-    "themes/hugo-book/static/favicon.svg",
     "content/ObsidianVault/Untitled.canvas",
     "Без названия 1.canvas",
     "Без названия.canvas",
