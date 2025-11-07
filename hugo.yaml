@@ -2,3 +2,5 @@ baseURL: https://sci.community/
 languageCode: ru-RU
 title: SEAF NOTES
 theme: hugo-book
+ignoreFiles:
+  - "content/local_base/.*"
