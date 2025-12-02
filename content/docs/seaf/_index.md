@@ -1,12 +1,8 @@
 ---
-title: "SEAF on a page"
-weight: 2
-# bookFlatSection: false
+title: SEAF
+weight: 4
 bookToc: true
-# bookHidden: false
 bookCollapseSection: false
-# bookComments: false
-# bookSearchExclude: false
 tags:
   - seafonapage
 aliases:
@@ -55,7 +51,5 @@ aliases:
 
 
 ## **Структура документации SEAF** {#seafdocstructure}
-
-
 
 ![](/docstructure.excalidraw.png)
