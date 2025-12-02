@@ -2,7 +2,7 @@
 title: SEAF
 weight: 4
 bookToc: true
-bookCollapseSection: false
+bookCollapseSection: true
 tags:
   - seafonapage
 aliases:
