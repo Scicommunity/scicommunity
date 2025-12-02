@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c4f2582517c8a591",
+        "id": "c013d79b2014f38d",
         "type": "tabs",
         "children": [
           {
-            "id": "54bb728b69ba017d",
+            "id": "15f0da5f0fc938bc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "content/local_base/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2024-10-29 14.54.54.excalidraw"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Новая вкладка"
             }
           }
         ]
@@ -76,7 +74,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 695.5
+    "width": 411.5
   },
   "right": {
     "id": "2dace323d37d6b22",
@@ -165,7 +163,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "content/local_base/ObsidianVault/Новый инструмент SEAF/Drawing 2024-10-29 14.54.54.excalidraw.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +190,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Граф Drawing 2024-10-29 14.54.54.excalidraw"
+              "title": "Граф"
             }
           }
         ],
@@ -226,54 +223,53 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "fddab1e91421cf81",
+  "active": "15f0da5f0fc938bc",
   "lastOpenFiles": [
-    "content/local_base/ObsidianVault/Новый инструмент SEAF/Новый инструмент управления архитектурой.md",
-    "content/local_base/seafonapage/_index.md",
-    "content/local_base/Вся информация по SEAF из СБЕР/План сбора всех знаний SEAF.md",
-    "content/local_base/Вся информация по SEAF из СБЕР/Технология создания экосистемы.md",
-    "content/local_base/ObsidianVault/Конференция FLOW/Основные мысли и выводы для целевой аудитории.md",
-    "content/local_base/ObsidianVault/Цели SEAF/Конгруэнтные цели.md",
-    "content/docs/guides/contribute/seafknowledge.md",
-    "content/docs/guides/contribute/Pasted image 20250513134943.png",
-    "content/local_base",
-    "content/docs/fundamentals/values4analysts/index.md",
-    "Без названия 1.md",
-    "copilot/Без названия.md",
-    "copilot/copilot-custom-prompts/Generate glossary.md",
-    "copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-    "copilot/copilot-custom-prompts/Explain like I am 5.md",
-    "copilot/copilot-custom-prompts/Emojify.md",
-    "Вся информация по SEAF из СБЕР/План сбора всех знаний SEAF.md",
-    "sci.community.md",
-    "Вся информация по SEAF из СБЕР/Технология создания экосистемы.md",
-    "Вся информация по SEAF из СБЕР/Ментальные и переговорные приемы.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-    "copilot/copilot-custom-prompts/Rewrite as tweet.md",
-    "copilot/copilot-custom-prompts/Remove URLs.md",
-    "copilot/copilot-custom-prompts/Generate table of contents.md",
-    "copilot/copilot-custom-prompts/Make longer.md",
-    "copilot/copilot-custom-prompts/Make shorter.md",
-    "copilot/copilot-custom-prompts/Simplify.md",
-    "copilot/copilot-custom-prompts/Summarize.md",
-    "copilot/copilot-custom-prompts",
-    "copilot",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Решение АрхСовета Сбербанка.docx",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Рекомендации по описанию SLA для АС ДЗО и ДБ.docx",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы/Ключевые изменения в Сборнике версии 4.0.pptx",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Дополнительные материалы",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 9. Стандарт надёжности ИТ ДЗО и ДБ.docx",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 8. Стандарт Cloud Native для ДЗО и ДБ.docx",
-    "Вся информация по SEAF из СБЕР/Стандарты/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ версии 4.0/Сборник архитектурных стандартов ДЗО и ДБ. Версия 4.0. Часть 7. Требования к Архитектуре Приложений и Интеграции.docx",
-    "ObsidianVault/msg-1002009916411-766.jpg",
-    "content/docs/guides/contribute/SEAF TAGS COPY.svg",
-    "themes/hugo-book/images/tn.png",
-    "themes/hugo-book/images/screenshot.png",
-    "themes/hugo-book/static/svg/translate.svg",
-    "themes/hugo-book/static/svg/toc.svg",
-    "themes/hugo-book/static/svg/edit.svg",
-    "themes/hugo-book/static/svg/menu.svg",
-    "themes/hugo-book/static/svg/calendar.svg",
+    "hugo.yaml~",
+    "content/docs/rabbithole/workpapers/_index.md",
+    "content/docs/seaf/_index.md",
+    "content/docs/seaf/docstructure.excalidraw.png.md",
+    "content/docs/seaf",
+    "content/docs/seafonapage/_index.md",
+    "content/docs/reverse/_index.md",
+    "content/docs/reverse/reverse_PSI_IntelliJ_IDEA.md",
+    "content/docs/reverse/RE of PSI IntelliJ IDEA.md",
+    "content/docs/stories/_index.md",
+    "content/_index.md",
+    "content/docs/stories/Linux_kernel_history.md",
+    "content/docs/_index.md",
+    "content/docs/stories/TOGAF_history.md",
+    "content/docs/stories/RE of PSI IntelliJ IDEA.md",
+    "content/docs/stories/image3.png",
+    "content/docs/stories",
+    "content/docs/rabbithole/_index.md",
+    "Без названия.md",
+    "content/docs/posts/Reverse engineering/_index.md",
+    "content/docs/reverse/image3.png",
+    "content/docs/reverse",
+    "content/docs/Reverse/_index.md",
+    "content/docs/Reverse/RE of PSI IntelliJ IDEA.md",
+    "content/docs/Reverse/image3.png",
+    "content/docs/Reverse",
+    "content/docs/Reverse engineering/_index.md",
+    "content/docs/Reverse engineering/RE of PSI IntelliJ IDEA.md",
+    "content/docs/Reverse engineering/image3.png",
+    "content/docs/Reverse engineering",
+    "content/docs/posts/Reverse engineering/RE of PSI IntelliJ IDEA.md",
+    "content/docs/posts/Reverse engineering/image3.png",
+    "content/docs/posts/_index.md",
+    "content/docs/rabbithole/workpapers/index.md",
+    "content/docs/rabbithole/videos/index.md",
+    "content/docs/rabbithole/workpapers/DADR/DADR.md",
+    "content/docs/rabbithole/workpapers/DADR",
+    "content/docs/fundamentals/dadr/Без названия",
+    "content/docs/rabbithole/workpapers",
+    "public/categories/page/1/index.html",
+    "public/image8.png",
+    "public/image7.png",
+    "public/image9.png",
+    "public/ProductCode.png",
+    "public/Pasted Image 20250402180703_209.png",
     "content/ObsidianVault/Untitled.canvas",
     "Без названия 1.canvas",
     "Без названия.canvas",
