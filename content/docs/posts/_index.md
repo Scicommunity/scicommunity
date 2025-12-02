@@ -1,6 +1,6 @@
 ---
-title: "Публикации"
-weight: 1
+title: "Концепции"
+weight: 3
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false
