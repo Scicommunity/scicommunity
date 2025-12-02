@@ -1,5 +1,5 @@
 ---
-title: "Лендинг-страница"
+title: "Community-oriented science & knowledge"
 weight: 1
 # bookFlatSection: false
 bookToc: false
