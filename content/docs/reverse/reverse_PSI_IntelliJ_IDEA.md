@@ -1,5 +1,5 @@
 ---
-title: RE of PSI IntelliJ IDEA
+title: PSI IntelliJ IDEA
 weight: 100
 bookToc: true
 bookCollapseSection: false
