@@ -7,6 +7,7 @@ tags:
   - seafonapage
 aliases:
   - seafonapage
+draft: true
 ---
 
 ## **Для кого создается SEAF?**
