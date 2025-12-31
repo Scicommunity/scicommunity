@@ -6,6 +6,7 @@ aliases:
   - Концепция SEAF.docs
 tags:
   - docsascode
+draft: true
 ---
 # Концепция управления документацией проекта SEAF
 
