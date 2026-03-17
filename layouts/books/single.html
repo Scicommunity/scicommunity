@@ -1,0 +1,185 @@
+{{ define "main" }}
+<article class="book-single">
+
+    <header class="book-single__header">
+        <div class="book-single__cover">
+            {{ with .Resources.GetMatch "cover.*" }}
+            <img src="{{ .RelPermalink }}" alt="Обложка: {{ $.Title }}">
+            {{ end }}
+
+            {{ with .Params.rating }}
+            <div class="book-rating">
+                <div class="book-rating__stars" aria-label="Рейтинг {{ . }} из 10">
+                    {{ $r := int . }}
+                    {{ range $i := seq 1 10 }}
+                    {{ if le $i $r }}
+                    <span class="book-rating__star book-rating__star--filled">★</span>
+                    {{ else }}
+                    <span class="book-rating__star">★</span>
+                    {{ end }}
+                    {{ end }}
+                </div>
+                <div class="book-rating__text">
+                    Рейтинг {{ . }} из 10
+                </div>
+            </div>
+            {{ end }}
+        </div>
+        <div class="book-single__meta">
+            <h1 class="book-single__title">"{{ .Title }}"</h1>
+
+            {{ with .Params.subTitle }}
+            <p class="book-single__subtitle">{{ . }}</p>
+            {{ end }}
+
+            {{ if .Params.creators }}
+            <p class="book-single__authors">
+                Автор: {{ range $i, $c := .Params.creators }}
+                {{- if gt $i 0 }}, {{ end -}}
+                {{ with $c.given }}{{ . }} {{ end }}{{ $c.family }}
+                {{ end }}
+            </p>
+            {{ end }}
+
+            <dl class="book-single__details">
+                {{ with .Params.year }}
+                <div>
+                    <dt>Год издания</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.publisher }}
+                <div>
+                    <dt>Издательство</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.place }}
+                <div>
+                    <dt>Место издания</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.ISBN }}
+                <div>
+                    <dt>ISBN</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.pages }}
+                <div>
+                    <dt>Страницы</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.language }}
+                <div>
+                    <dt>Язык</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.series }}
+                <div>
+                    <dt>Серия</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+                {{ with .Params.series_number }}
+                <div>
+                    <dt>Номер в серии</dt>
+                    <dd>{{ . }}</dd>
+                </div>
+                {{ end }}
+
+<!--                {{ with .Params.rating }}-->
+<!--                <div>-->
+<!--                    <dt>Рейтинг</dt>-->
+<!--                    <dd>{{ . }}/10</dd>-->
+<!--                </div>-->
+<!--                {{ end }}-->
+
+                {{ with .Params.copy_owners }}
+                <div>
+                    <dt>Владельцы экземпляров (у кого спросить):</dt>
+                    <dd>
+                        {{ range $i, $o := . }}
+                        {{ if gt $i 0 }}, {{ end }}{{ $o }}
+                        {{ end }}
+                    </dd>
+                </div>
+                {{ end }}
+            </dl>
+
+            {{ with .Params.url }}
+            <p class="book-single__external">
+                <a href="{{ . }}" target="_blank" rel="noopener">Перейти к книге</a>
+            </p>
+            {{ end }}
+
+            {{ with .Params.booktags }}
+            <p class="book-single__tags">
+                <span>Ключевые слова:</span>
+                {{ range . }}
+                <span class="books-chip">{{ . }}</span>
+                {{ end }}
+            </p>
+            {{ end }}
+
+            {{ with .Params.bookgenres }}
+            <p class="book-single__tags">
+                <span>Теги:</span>
+                {{ range . }}
+                <span class="books-chip books-chip--soft">{{ . }}</span>
+                {{ end }}
+            </p>
+            {{ end }}
+
+            {{ with .Params.bookshelves }}
+            <p class="book-single__tags">
+                <span>Полки:</span>
+                {{ range . }}
+                <span class="books-chip books-chip--shelf">{{ . }}</span>
+                {{ end }}
+            </p>
+            {{ end }}
+        </div>
+    </header>
+
+    {{ with (or .Params.summary .Params.abstractNote) }}
+    <section class="book-single__summary">
+        <h1>Краткое содержание</h1>
+        <p>{{ . }}</p>
+    </section>
+    {{ end }}
+
+    <section class="book-single__content">
+        {{ .Content }}
+    </section>
+
+    {{ with .Params.zotero }}
+    {{ if or .key .collection }}
+    <section class="book-single__zotero">
+        <h2>Карточка в электронной библиотеке</h2>
+        <dl>
+            {{ with .key }}
+            <div><dt>Ключ:</dt><dd>{{ . }}</dd></div>
+            {{ end }}
+            {{ with .collection }}
+            <div><dt>Коллекция: {{ . }}</dt></div>
+            {{ end }}
+            {{ with .zotero_item_type }}
+            <div><dt>Тип карточки в библиотеке: {{ . }}</dt></div>
+            {{ end }}
+        </dl>
+    </section>
+    {{ end }}
+    {{ end }}
+</article>
+{{ end }}

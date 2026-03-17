@@ -1,0 +1,141 @@
+<!--<nav class="sidebar-books">
+    <h2 class="sidebar-books__title">Книги</h2>
+    <ul class="sidebar-books__list">
+        {{/* список всех книг в разделе */}}
+        {{ range (where .Site.RegularPages "Section" "books") }}
+        <li class="sidebar-books__item">
+            <a href="{{ .RelPermalink }}">
+                {{ .Title }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>-->
+
+    {{ $focusShelf := "Читаем сейчас" }}
+    {{ $focusBooks := where (where .Site.RegularPages "Section" "books") "Params.bookshelves" "intersect" (slice $focusShelf) }}
+
+    {{ if $focusBooks }}
+    <div class="books-sidebar__section books-sidebar__section--focus">
+        <h2 class="books-sidebar__title">Читаем сейчас:</h2>
+
+        <div class="books-sidebar__focus-list">
+            {{ range first 5 (sort $focusBooks ".Params.year" "desc") }}
+            <a href="{{ .RelPermalink }}" class="books-focus-item">
+                <div class="books-focus-item__title-line">
+                    «{{ .Title }}»
+                    {{ with .Params.subTitle }}
+                    <span class="books-focus-item__subtitle"> {{ . }}</span>
+                    {{ end }}
+                </div>
+
+                <div class="books-focus-item__meta">
+                    {{ with .Params.year }}
+                    <span class="books-focus-item__year">Год: {{ . }}</span>
+                    {{ end }}
+
+                    {{ with .Params.creators }}
+                    <span class="books-focus-item__authors">
+          Автор{{ if gt (len .) 1 }}ы{{ end }}:
+          {{ range $i, $c := . }}
+            {{ if $i }}, {{ end }}
+            {{ with $c.given }}{{ . }} {{ end }}{{ $c.family }}
+          {{ end }}
+        </span>
+                    {{ end }}
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+    {{ end }}
+
+{{/* Собираем все уникальные жанры из книг секции books */}}
+{{ $books := where .Site.RegularPages "Section" "books" }}
+{{ $allGenres := slice }}
+
+{{ range $books }}
+{{ with .Params.bookgenres }}
+{{ range . }}
+{{ $allGenres = $allGenres | append . }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{/* Удаляем дубли */}}
+{{ $allGenres = uniq $allGenres }}
+
+<div class="books-sidebar__section">
+    <h2 class="books-sidebar__subtitle">Форматы и жанры</h2>
+    <div class="books-sidebar__chips">
+        {{ range $allGenres }}
+        {{ $term := . }}
+        <a href="{{ (printf "/bookgenres/%s/" ($term | urlize)) | relURL }}"
+        class="books-chip">
+        {{ $term }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+
+{{/* Собираем все уникальные теги книг секции books */}}
+{{ $books := where .Site.RegularPages "Section" "books" }}
+{{ $allGenres := slice }}
+
+{{ range $books }}
+{{ with .Params.booktags }}
+{{ range . }}
+{{ $allGenres = $allGenres | append . }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{/* Удаляем дубли */}}
+{{ $allGenres = uniq $allGenres }}
+
+<div class="books-sidebar__section">
+    <h2 class="books-sidebar__subtitle">Теги и стили</h2>
+    <div class="books-sidebar__chips">
+        {{ range $allGenres }}
+        {{ $term := . }}
+        <a href="{{ (printf "/booktags/%s/" ($term | urlize)) | relURL }}"
+        class="books-chip">
+        {{ $term }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+{{/* Аналогично для полок */}}
+{{ $allShelves := slice }}
+
+{{ range $books }}
+{{ with .Params.bookshelves }}
+{{ range . }}
+{{ $allShelves = $allShelves | append . }}
+{{ end }}
+{{ end }}
+{{ end }}
+
+{{ $allShelves = uniq $allShelves }}
+
+<div class="books-sidebar__section">
+    <h3 class="books-sidebar__subtitle">Подборки по ситуациям</h3>
+    <div class="books-sidebar__chips">
+        {{ range $allShelves }}
+        {{ $term := . }}
+        <a href="{{ (printf "/bookshelves/%s/" ($term | urlize)) | relURL }}"
+        class="books-chip books-chip--shelf">
+        {{ $term }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+
+
+
+
+
+
+

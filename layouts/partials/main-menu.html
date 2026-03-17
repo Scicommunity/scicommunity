@@ -1,0 +1,15 @@
+{{ with site.Menus.main }}
+<nav class="top-main-menu" role="navigation">
+    <ul class="top-main-menu__list">
+        {{ range . }}
+        {{ $isActive := or ( $.IsMenuCurrent "main" . ) ( $.HasMenuCurrent "main" . ) }}
+        <li class="top-main-menu__item{{ if $isActive }} top-main-menu__item--active{{ end }}">
+            <a href="{{ .URL }}" aria-current="{{ if $isActive }}page{{ else }}false{{ end }}">
+                {{ .Name }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>
+{{ end }}
+

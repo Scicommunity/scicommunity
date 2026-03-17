@@ -1,9 +1,43 @@
 baseURL: https://sci.community/
 languageCode: ru-RU
-title: NOTES
+title: SciCommunity
 theme: hugo-book
 ignoreFiles:
   - "content/local_base/.*"
   - "copilot/.*"
   - ".obsidian/.*"
   - ".idea/.*"
+taxonomies:
+  # глобальные, если они уже есть:
+  category: categories
+  tag: tags
+
+  # книжные:
+  booktag: booktags # интересы / ключевые слова книг
+  bookgenre: bookgenres # жанры / тематики книг
+  bookshelf: bookshelves # полки / подборки для сообщества
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# sectionPagesMenu: main
+#menu:
+#  main:
+#    - name: "Публикации"
+#      url: "/"
+#      identifier: "publications"
+#      weight: 1
+#    - name: "Фильмы"
+#      url: "/films/"
+#      identifier: "films"
+#      weight: 2
+#    - name: "Книги"
+#      url: "/books/"
+#      identifier: "books"
+#      weight: 3
+#    - name: "Тренировки"
+#      url: "/trainings/"
+#      identifier: "trainings"
+#      weight: 4

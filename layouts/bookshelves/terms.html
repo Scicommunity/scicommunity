@@ -1,0 +1,50 @@
+{{ define "main" }}
+<article class="book-page books-terms books-terms--shelves">
+    <header class="books-terms__header">
+        <h1>Полки сообщества для чтения</h1>
+        <p>Это подборки книг по задачам: для новичков, тренеров, истории, самообороны и совместного чтения.</p>
+        <p>Примеры значений:
+            Учебник для новичка
+            Для первого дана
+            История дзюдо и БЖЖ
+            По самообороне
+            Для тренеров
+            Читаем сейчас
+            Классика дзю‑дзюцу
+            Тактика для соревнований</p></p>
+    </header>
+
+    <section class="books-terms__grid">
+        <table class="books-terms__table">
+            <thead>
+            <tr>
+                <th>Полка</th>
+                <th>Количество книг</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{ range .Data.Terms.Alphabetical }}
+            <tr>
+                <td>
+                    <a href="{{ .Page.RelPermalink }}">
+                        {{ .Page.Title }}
+                    </a>
+                </td>
+                <td>{{ .Count }}</td>
+            </tr>
+            {{ end }}
+            </tbody>
+        </table>
+    </section>
+</article>
+{{ end }}
+
+
+
+
+
+
+
+
+
+

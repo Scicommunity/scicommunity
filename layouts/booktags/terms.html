@@ -1,0 +1,39 @@
+{{ define "main" }}
+<article class="book-page books-terms books-terms--tags">
+    <header class="books-terms__header">
+        <h1>Книжные теги</h1>
+        <p>Темы, сюжеты и конкретные вопросы, которые встречаются в наших книгах.</p>
+        <p> Booktags — это «о чём внутри, ключевые и конкретные темы, вопросы, мотивы» раскрываются в книге или статье.
+        Это гибкие темы и интересы, которые могут быть очень конкретными, часто много штук на одну книгу.
+        Примеры значений:
+        кимоно
+        катана
+        традиции
+        ритуалы с катаной
+        этикет додзё
+        страховка в бросках
+        травмы и восстановление
+        психология поединка
+        подготовка детей
+        силовая подготовка, мобилити и т.п.
+    </header>
+
+    <section class="books-terms__tags">
+        {{ range .Data.Terms.ByCount }}
+        <a href="{{ .Page.RelPermalink }}"
+           class="books-chip books-chip--soft books-chip--tagcloud">
+            {{ .Page.Title }}
+            <span class="books-chip__count">{{ .Count }}</span>
+        </a>
+        {{ end }}
+    </section>
+</article>
+{{ end }}
+
+
+
+
+
+
+
+

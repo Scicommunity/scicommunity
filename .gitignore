@@ -1,2 +1,5 @@
 /public/
 /content/local_base/
+content/docs/local_base
+node_modules/
+resources/_gen/

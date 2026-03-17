@@ -1,0 +1,36 @@
+{{ define "main" }}
+<article class="book-page books-terms books-terms--genres">
+    <header class="books-terms__header">
+        <h1>Жанры и типы книг</h1>
+        <p>Здесь — крупные, общеизвестные и устойчивые жанры и типы издания.</p>
+        <p>Примеры значений: история, философия, биография, мемуары, учебник, учебное пособие, руководство, справочник, монография, художественная литература, роман, рассказ и т.п.</p>
+    </header>
+
+    <section class="books-terms__grid">
+        <table class="books-terms__table">
+            <thead>
+            <tr>
+                <th>Тип книги или тег</th>
+                <th>Количество книг</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{ range .Data.Terms.Alphabetical }}
+            <tr>
+                <td>
+                    <a href="{{ .Page.RelPermalink }}">
+                        {{ .Page.Title }}
+                    </a>
+                </td>
+                <td>{{ .Count }}</td>
+            </tr>
+            {{ end }}
+            </tbody>
+        </table>
+
+    </section>
+</article>
+{{ end }}
+
+
+

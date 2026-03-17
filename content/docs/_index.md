@@ -1,5 +1,10 @@
 ---
-title: "Docs"
+title: "Community-oriented science & knowledge"
+menu:
+  main:
+    name: "Публикации"
+    identifier: "publications"
+    weight: 1
 weight: 1
 # bookFlatSection: false
 # bookToc: true
@@ -9,3 +14,8 @@ weight: 1
 # bookSearchExclude: false
 ---
 
+##### Cоздай сообщество, создающее знания!
+
+NB1! Ресурс пока существует на временной площадке, без оформления и стилей.
+
+NB2! Материалы используются для обмена идеями, обсуждения и формирования документации продукта(-ов).
