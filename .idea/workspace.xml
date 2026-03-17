@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="изменение заголовка над меню">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+    <list default="true" id="7ce7517f-5644-452d-a3c3-d2f09827119c" name="Changes" comment="отключил тему как сабмодуль">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,14 +93,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739609404259</updated>
-    </task>
-    <task id="LOCAL-00010" summary="Обновление readme">
-      <option name="closed" value="true" />
-      <created>1743594428567</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1743594428567</updated>
     </task>
     <task id="LOCAL-00011" summary="Доработка раздела contribute">
       <option name="closed" value="true" />
@@ -487,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1764688511600</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="отключил тему как сабмодуль">
+      <option name="closed" value="true" />
+      <created>1773760844861</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1773760844861</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -515,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="доработки настроек обсидиана для синхронности разработки" />
     <MESSAGE value="перенос картинки в локальный репозиторий" />
     <MESSAGE value="скрипт для отражения видео в обсидиане" />
     <MESSAGE value="изменения настроек IDEA" />
@@ -540,6 +538,7 @@
     <MESSAGE value="изменен заголовок, видный с мобильных устройств (на малом экране)" />
     <MESSAGE value="Добавлен файл по разработка DADR" />
     <MESSAGE value="изменение заголовка над меню" />
-    <option name="LAST_COMMIT_MESSAGE" value="изменение заголовка над меню" />
+    <MESSAGE value="отключил тему как сабмодуль" />
+    <option name="LAST_COMMIT_MESSAGE" value="отключил тему как сабмодуль" />
   </component>
 </project>
